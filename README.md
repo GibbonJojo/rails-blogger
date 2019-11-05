@@ -1,24 +1,7 @@
-# README
+# Rails Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was to practice Ruby on Rails by creating a Blog.
 
-Things you may want to cover:
+Runs on Ruby 2.6.4 and Rails 6.0.0, as well as SQLite3 1.4.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+With this, I learned the MVC Architecture of rails and how to set the three components (Models, Controller, Views) up to create an CRUD Application.
