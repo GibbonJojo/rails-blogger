@@ -17,11 +17,11 @@ I followed the Tutorial on http://tutorials.jumpstartlab.com/projects/blogger.ht
 #### Linux
 To install Ruby on Linux, some libraries and packages are needed first:
 
-'sudo apt install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev'
+`sudo apt install curl git nodejs gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev`
 
 Then, you'll need rbenv:
 
-'
+`
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
@@ -29,36 +29,36 @@ exit
 (reopen terminal)
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-'
+`
 
 You can verify the correct installation with
-'rbenv -v'
+`rbenv -v`
 
 Then install Ruby:
 
-'rbenv install 2.6.4 --verbose'
+`rbenv install 2.6.4 --verbose`
 
 After that, set the Ruby version and verify that it's working
 
-'
+`
 rbenv global 2.6.4
 ruby -v
-'
+`
 
 ### Rails
 Well, simple:
 
-'gem install rails'
+`gem install rails`
 
 ### Blogger
 To setup the site, cd into the directory and run 
 
-'bundle install'
+`bundle install`
 
 to install all the requred Ruby-Modules
 
 Then run the server with
 
-'ruby server'
+`ruby server`
 
 and go to localhost:3000/articles in your browser to access the page
