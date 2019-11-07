@@ -23,11 +23,17 @@ Then, you'll need rbenv:
 
 `
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
 exit
+
 (reopen terminal)
+
 mkdir -p "$(rbenv root)"/plugins
+
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 `
 
@@ -42,6 +48,7 @@ After that, set the Ruby version and verify that it's working
 
 `
 rbenv global 2.6.4
+
 ruby -v
 `
 
