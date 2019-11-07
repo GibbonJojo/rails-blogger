@@ -7,6 +7,7 @@ Runs on Ruby 2.6.4 and Rails 6.0.0, as well as SQLite3 1.4.
 With this, I learned the MVC Architecture of rails and how to set the three components (Models, Controller, Views) up to create an CRUD Application.
 
 To view the Blog, visit https://cryptic-sierra-50092.herokuapp.com/
+
 The frontend is still a bit... meh, but fixing this is not my main focus right now, as this project was to learn and demonstrate my now-knowledge of Ruby on Rails.
 
 I followed the Tutorial on http://tutorials.jumpstartlab.com/projects/blogger.html
