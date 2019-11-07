@@ -21,21 +21,21 @@ To install Ruby on Linux, some libraries and packages are needed first:
 
 Then, you'll need rbenv:
 
-`
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+`git clone https://github.com/rbenv/rbenv.git ~/.rbenv`
 
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+`echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc`
 
-exit
+`echo 'eval "$(rbenv init -)"' >> ~/.bashrc`
+
+`exit`
 
 (reopen terminal)
 
-mkdir -p "$(rbenv root)"/plugins
+`mkdir -p "$(rbenv root)"/plugins`
 
-git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-`
+`git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build`
+
 
 You can verify the correct installation with
 `rbenv -v`
